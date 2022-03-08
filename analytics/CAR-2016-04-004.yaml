@@ -27,7 +27,7 @@ implementations:
 unit_tests:
   - configurations: 
       - Windows 7
-    description: As an adminstrator, create a new user. Then, logon to the host with that new user. This is generate the event.
+    description: As an adminstrator, create a new user. Then, logon to the host with that new user using this command.
     commands:
       - net user 'test' 'test' /add
 d3fend_mappings:
